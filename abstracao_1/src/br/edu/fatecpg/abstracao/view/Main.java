@@ -105,7 +105,41 @@ public class Main {
 		sapato2.tamanho=35;
 		System.out.println("Tamanho:"+sapato2.tamanho);
 		sapato2.usando2();
+
+		System.out.println("------------------------");
 		
+		System.out.println("========CARRO========");
+		Carro meuCarro = new Carro();
+		
+		meuCarro.marca = "Chevrolet";
+		meuCarro.modelo = "Prisma";
+		meuCarro.ano = 2006;
+		meuCarro.cor = "rosa";
+		meuCarro.capTanque = 54;
+		
+		Carro meuCarro2 = new Carro();
+		
+		meuCarro2.marca = "Aston Martin";
+		meuCarro2.modelo = "Valhalla";
+		meuCarro2.ano = 2025;
+		meuCarro2.cor = "Azul";
+		meuCarro2.capTanque = 50;
+		
+		System.out.println("Informações do 1° carro:");
+		System.out.println("Meu carro é um " + meuCarro.marca + " " + meuCarro.modelo +  " ano "+ meuCarro.ano + " da cor " + meuCarro.cor + " e seu tanque tem a capacidade de " + meuCarro.capTanque + " litros.\n");
+		System.out.println("Informações do 2° carro:");
+		System.out.println("Meu carro é um " + meuCarro2.marca + " " + meuCarro2.modelo +  " ano "+ meuCarro2.ano + " da cor " + meuCarro2.cor + " e seu tanque tem a capacidade de " + meuCarro2.capTanque + " litros.\n");
+		
+		System.out.println("---------------------------------------- \n");
+		
+		System.out.println("Métodos:");
+		meuCarro.ligar();		
+		meuCarro.ligar();		
+		meuCarro.Acelerar(); 	
+		meuCarro.Buzinar();
+		meuCarro.Desligar(); 	
+		meuCarro.Acelerar();	
+		meuCarro.Desligar();
 		
 		
 		
@@ -113,5 +147,6 @@ public class Main {
 	}
 
 	}
+
 
 
